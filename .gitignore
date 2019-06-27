@@ -51,3 +51,4 @@ build-iPhoneSimulator/
 
 /.sass-cache/
 /_site/
+/_deploy.yml
