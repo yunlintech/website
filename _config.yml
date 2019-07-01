@@ -15,10 +15,11 @@
 # in the templates via {{ site.myvariable }}.
 title: MaiChain
 email: lucas@yunlin.io
+keywords: >- # this means to ignore newlines until "baseurl:"
+  Blockchain, Dapp Development, Bitcoin, Ethereum, EOS
 description: >- # this means to ignore newlines until "baseurl:"
-  Write an awesome description for your new site here. You can edit this
-  line in _config.yml. It will appear in your document head meta (for
-  Google search results) and in your feed.xml site description.
+  Blockchain Industry Application Solutions.
+  Focusing on the underlying technology of block.
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "" # the base hostname & protocol for your site, e.g. http://example.com
 twitter_username: jekyllrb
@@ -26,51 +27,35 @@ github_username:  jekyll
 
 # Team names, titles and social links
 people:
-- name: Kay Garland
-  pic: 1
-  position: Lead Designer
-  social:
-    - title: twitter
-      url: #
-    - title: facebook
-      url: #
-    - title: stack-overflow
-      url: #
+- name: Lucas Zhang
+  pic: 1.png
+  titles:
+    - MaiChain CEO
+    - Senior Fullstack Engineer
+    - Former Architect at MaiCoin
 
-- name: Larry Parker
-  pic: 2
-  position: Lead Marketer
-  social:
-    - title: twitter
-      url: #
-    - title: facebook
-      url: #
-    - title: linkedin
-      url: #
+- name: David Zhang
+  pic: 2.jpg
+  titles:
+    - MaiChain Co-Founder
+    - Senior Fullstack Engineer
+    - Open Source Enthusiast
 
-- name: Diana Petersen
-  pic: 3
-  position: Lead Developer
-  social:
-    - title: twitter
-      url: #
-    - title: facebook
-      url: #
-    - title: google-plus
-      url: #
+- name: Levi Chen
+  pic: 3.png
+  titles:
+    - MaiChain Co-Founder
+    - Senior Fullstack Engineer
+    - Open Source Enthusiast
 
 # Social networks usernames (many more available: google-plus, flickr, dribbble, pinterest, instagram, tumblr, linkedin, etc.)
 social:
   - title: twitter
-    url: http://twitter.com/jekyllrb
+    url: '#'
   - title: facebook
-    url:
-  - title: stack-overflow
-    url: http://stackoverflow.com/questions/tagged/jekyll
-  - title: bitbucket 
-    url: http://bitbucket.org/jekyll
+    url: '#'
   - title: github
-    url: http://github.com/jekyll
+    url: '#'
 
 # Build settings
 markdown: kramdown
